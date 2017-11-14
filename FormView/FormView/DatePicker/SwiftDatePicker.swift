@@ -68,7 +68,7 @@ class SwiftDatePicker: UIView,UIPickerViewDelegate,UIPickerViewDataSource,UIGest
         swiftDatePicker.layer.masksToBounds = true
         addSubview(swiftDatePicker)
         
-        let tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(SwiftDatePicker.dismiss))
+        let tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(dismiss))
         tapGesture.delegate = self
         self.addGestureRecognizer(tapGesture)
         for i in 1970...2050{
@@ -101,7 +101,7 @@ class SwiftDatePicker: UIView,UIPickerViewDelegate,UIPickerViewDataSource,UIGest
         }
     }
     
-    func dismiss(){
+    @objc func dismiss(){
         UIView.animate(withDuration: 0.3, animations: {
             self.remakeConstraints(bottom: 325)
             self.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0)

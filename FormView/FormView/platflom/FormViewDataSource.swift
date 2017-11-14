@@ -26,27 +26,24 @@ class FormViewDataSource: NSObject,UITableViewDataSource{
         switch model.cellType {
         case .textFiledType:
             identifier = kFormTextFiledCellId
-//            let cell = tableView.dequeueReusableCell(withIdentifier:kFormTextFiledCellId , for: indexPath) as! FormTextFiledCell
-//            cell.reloadCell(dataSource[indexPath.row],index: indexPath.row)
-//            return cell
         case .noEditType:
             identifier = kFormNoEditCellId
-//            let cell = tableView.dequeueReusableCell(withIdentifier:kFormNoEditCellId , for: indexPath) as! FormNoEditCell
-//            cell.reloadCell(dataSource[indexPath.row],index: indexPath.row)
-//            return cell
         case .textViewType:
             identifier = kFormTextViewCellId
-//            let cell = tableView.dequeueReusableCell(withIdentifier:kFormTextViewCellId , for: indexPath) as! FormTextViewCell
-//            cell.reloadCell(dataSource[indexPath.row],index: indexPath.row)
-//            return cell
         case .popupSelectionType,.popupSelectTimeType:
             identifier = kFormPopupSelectionCellId
-           
+        case .tipsViewType:
+            identifier = kFormTipsViewCellId
+        case .checkBoxType:
+            identifier = kFormCheckBoxCellId
+        case .searchViewType:
+            identifier = kFormSearchResultViewCellId
         default:
             fatalError("类型未定义")
         }
         let cell = tableView.dequeueReusableCell(withIdentifier:identifier , for: indexPath) as! FormCell
         cell.reloadCell(dataSource[indexPath.row],index: indexPath.row)
+        cell.selectionStyle = .none
         return cell
         
     }

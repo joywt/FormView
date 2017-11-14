@@ -13,15 +13,24 @@ protocol FormCellReload {
 }
 
 enum FormCellType {
-    case textFiledType // 输入框输入类型
-    case noEditType // 不可编辑类型
-    case textViewType // 文本输入类型
-    case popupSelectionType // 弹框选择类型
-    case popupSelectTimeType // 弹出框选择时间类型
-    case tipsViewType // 消息提醒类型
-    case checkBoxType // 多选框类型
-    case uploadImageType // 上传图片类型
-    case searchViewType // 搜索填充类型
+    /// 输入框输入类型
+    case textFiledType
+    /// 不可编辑类型
+    case noEditType
+    /// 文本输入类型
+    case textViewType
+    /// 弹框选择类型
+    case popupSelectionType
+    /// 弹出框选择时间类型
+    case popupSelectTimeType
+    /// 消息提醒类型
+    case tipsViewType
+    /// 多选框类型
+    case checkBoxType
+    /// 上传图片类型
+    case uploadImageType
+    /// 搜索填充类型
+    case searchViewType
     
 }
 class FormCell: UITableViewCell,FormCellReload {

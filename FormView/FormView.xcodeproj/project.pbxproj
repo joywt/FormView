@@ -31,6 +31,19 @@
 		01DF02DF1FB980B700E09C82 /* FormPopupSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DF02DD1FB980B700E09C82 /* FormPopupSelectionCell.xib */; };
 		01DF02E31FB9874200E09C82 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DF02E11FB9874200E09C82 /* DatePicker.xib */; };
 		01DF02E41FB9874200E09C82 /* SwiftDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02E21FB9874200E09C82 /* SwiftDatePicker.swift */; };
+		01DF02E81FBA869B00E09C82 /* FormTipsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02E61FBA869B00E09C82 /* FormTipsViewCell.swift */; };
+		01DF02E91FBA869B00E09C82 /* FormTipsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DF02E71FBA869B00E09C82 /* FormTipsViewCell.xib */; };
+		01DF02EC1FBA884000E09C82 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02EB1FBA884000E09C82 /* StringExtension.swift */; };
+		01DF02EF1FBA8C8C00E09C82 /* FormCheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02ED1FBA8C8C00E09C82 /* FormCheckBoxCell.swift */; };
+		01DF02F01FBA8C8C00E09C82 /* FormCheckBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DF02EE1FBA8C8C00E09C82 /* FormCheckBoxCell.xib */; };
+		01DF02F21FBA90B500E09C82 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02F11FBA90B400E09C82 /* CheckBoxButton.swift */; };
+		01DF02F41FBA917400E09C82 /* OnOffSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02F31FBA917400E09C82 /* OnOffSwitch.swift */; };
+		01DF02F71FBA9AA400E09C82 /* FormSearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02F51FBA9AA400E09C82 /* FormSearchViewCell.swift */; };
+		01DF02F81FBA9AA400E09C82 /* FormSearchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DF02F61FBA9AA400E09C82 /* FormSearchViewCell.xib */; };
+		01DF02FA1FBAB56D00E09C82 /* FormSearchViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02F91FBAB56D00E09C82 /* FormSearchViewDataSource.swift */; };
+		5D3CEDD4B1D659B7B0DE4713 /* Pods_FormView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882AF94608A5AC9A66CFE8 /* Pods_FormView.framework */; };
+		816038B3ED6CDE9239B83202 /* Pods_FormViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A216997CB89C266E27AE93D /* Pods_FormViewUITests.framework */; };
+		CE49905B70A8812A43A73A59 /* Pods_FormViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B708D6FE5BEC0FCE541FF08E /* Pods_FormViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +94,25 @@
 		01DF02DD1FB980B700E09C82 /* FormPopupSelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormPopupSelectionCell.xib; sourceTree = "<group>"; };
 		01DF02E11FB9874200E09C82 /* DatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePicker.xib; sourceTree = "<group>"; };
 		01DF02E21FB9874200E09C82 /* SwiftDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDatePicker.swift; sourceTree = "<group>"; };
+		01DF02E61FBA869B00E09C82 /* FormTipsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTipsViewCell.swift; sourceTree = "<group>"; };
+		01DF02E71FBA869B00E09C82 /* FormTipsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormTipsViewCell.xib; sourceTree = "<group>"; };
+		01DF02EB1FBA884000E09C82 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		01DF02ED1FBA8C8C00E09C82 /* FormCheckBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCheckBoxCell.swift; sourceTree = "<group>"; };
+		01DF02EE1FBA8C8C00E09C82 /* FormCheckBoxCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormCheckBoxCell.xib; sourceTree = "<group>"; };
+		01DF02F11FBA90B400E09C82 /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		01DF02F31FBA917400E09C82 /* OnOffSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnOffSwitch.swift; path = Adapter/OnOffSwitch.swift; sourceTree = "<group>"; };
+		01DF02F51FBA9AA400E09C82 /* FormSearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSearchViewCell.swift; sourceTree = "<group>"; };
+		01DF02F61FBA9AA400E09C82 /* FormSearchViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormSearchViewCell.xib; sourceTree = "<group>"; };
+		01DF02F91FBAB56D00E09C82 /* FormSearchViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSearchViewDataSource.swift; sourceTree = "<group>"; };
+		346FE555BF59F8079CAFD208 /* Pods-FormViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormViewUITests/Pods-FormViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FF1AE93ED3F87E2722180A8 /* Pods-FormViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormViewUITests/Pods-FormViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A216997CB89C266E27AE93D /* Pods_FormViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A881D1740E516B5663DC02C4 /* Pods-FormView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormView/Pods-FormView.release.xcconfig"; sourceTree = "<group>"; };
+		B19443B6C5A8F5B003923CAF /* Pods-FormViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormViewTests/Pods-FormViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B708D6FE5BEC0FCE541FF08E /* Pods_FormViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FA7A0A0773BF1452ADF14F /* Pods-FormViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormViewTests/Pods-FormViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		E23FE193C59C7A8D14639FD2 /* Pods-FormView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormView/Pods-FormView.debug.xcconfig"; sourceTree = "<group>"; };
+		FF882AF94608A5AC9A66CFE8 /* Pods_FormView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3CEDD4B1D659B7B0DE4713 /* Pods_FormView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE49905B70A8812A43A73A59 /* Pods_FormViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816038B3ED6CDE9239B83202 /* Pods_FormViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +150,8 @@
 				01617ED61FB53FAE0055A6B1 /* FormViewTests */,
 				01617EE11FB53FAE0055A6B1 /* FormViewUITests */,
 				01617EC01FB53FAE0055A6B1 /* Products */,
+				7222B99E7A1855703FEE376E /* Pods */,
+				3DF29AA802722FAEB6ED72A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +202,9 @@
 		01617EF01FB53FDA0055A6B1 /* platflom */ = {
 			isa = PBXGroup;
 			children = (
+				01DF02F31FBA917400E09C82 /* OnOffSwitch.swift */,
+				01DF02F11FBA90B400E09C82 /* CheckBoxButton.swift */,
+				01DF02EA1FBA883000E09C82 /* Adapter */,
 				01617EF11FB545AB0055A6B1 /* Store.swift */,
 				01617EF31FB54E5D0055A6B1 /* FormViewController.swift */,
 				016184D11FB58A570055A6B1 /* FormView.swift */,
@@ -179,6 +219,13 @@
 				01DF02D91FB9780100E09C82 /* FormTextViewCell.xib */,
 				01DF02DC1FB980B700E09C82 /* FormPopupSelectionCell.swift */,
 				01DF02DD1FB980B700E09C82 /* FormPopupSelectionCell.xib */,
+				01DF02E61FBA869B00E09C82 /* FormTipsViewCell.swift */,
+				01DF02E71FBA869B00E09C82 /* FormTipsViewCell.xib */,
+				01DF02ED1FBA8C8C00E09C82 /* FormCheckBoxCell.swift */,
+				01DF02EE1FBA8C8C00E09C82 /* FormCheckBoxCell.xib */,
+				01DF02F51FBA9AA400E09C82 /* FormSearchViewCell.swift */,
+				01DF02F61FBA9AA400E09C82 /* FormSearchViewCell.xib */,
+				01DF02F91FBAB56D00E09C82 /* FormSearchViewDataSource.swift */,
 			);
 			path = platflom;
 			sourceTree = "<group>";
@@ -192,6 +239,37 @@
 			path = DatePicker;
 			sourceTree = "<group>";
 		};
+		01DF02EA1FBA883000E09C82 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				01DF02EB1FBA884000E09C82 /* StringExtension.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		3DF29AA802722FAEB6ED72A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF882AF94608A5AC9A66CFE8 /* Pods_FormView.framework */,
+				B708D6FE5BEC0FCE541FF08E /* Pods_FormViewTests.framework */,
+				9A216997CB89C266E27AE93D /* Pods_FormViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7222B99E7A1855703FEE376E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E23FE193C59C7A8D14639FD2 /* Pods-FormView.debug.xcconfig */,
+				A881D1740E516B5663DC02C4 /* Pods-FormView.release.xcconfig */,
+				B19443B6C5A8F5B003923CAF /* Pods-FormViewTests.debug.xcconfig */,
+				C6FA7A0A0773BF1452ADF14F /* Pods-FormViewTests.release.xcconfig */,
+				346FE555BF59F8079CAFD208 /* Pods-FormViewUITests.debug.xcconfig */,
+				3FF1AE93ED3F87E2722180A8 /* Pods-FormViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01617EE71FB53FAE0055A6B1 /* Build configuration list for PBXNativeTarget "FormView" */;
 			buildPhases = (
+				35B83E55CA46A7DCE2CBEA9A /* [CP] Check Pods Manifest.lock */,
 				01617EBB1FB53FAE0055A6B1 /* Sources */,
 				01617EBC1FB53FAE0055A6B1 /* Frameworks */,
 				01617EBD1FB53FAE0055A6B1 /* Resources */,
+				8BF480B77FF1BD7AA2CF9988 /* [CP] Embed Pods Frameworks */,
+				8C20793B9079667A5A15B47B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01617EEA1FB53FAE0055A6B1 /* Build configuration list for PBXNativeTarget "FormViewTests" */;
 			buildPhases = (
+				7A0A1FE10F4E9D4EB5BF8819 /* [CP] Check Pods Manifest.lock */,
 				01617ECF1FB53FAE0055A6B1 /* Sources */,
 				01617ED01FB53FAE0055A6B1 /* Frameworks */,
 				01617ED11FB53FAE0055A6B1 /* Resources */,
+				3BC625924E66C65EC6E88EFD /* [CP] Embed Pods Frameworks */,
+				A81C0D3D43B4374CC6E48572 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01617EED1FB53FAE0055A6B1 /* Build configuration list for PBXNativeTarget "FormViewUITests" */;
 			buildPhases = (
+				4D1458151F27E935C13934A8 /* [CP] Check Pods Manifest.lock */,
 				01617EDA1FB53FAE0055A6B1 /* Sources */,
 				01617EDB1FB53FAE0055A6B1 /* Frameworks */,
 				01617EDC1FB53FAE0055A6B1 /* Resources */,
+				65E6A3B9B6FB120AE5BC741A /* [CP] Embed Pods Frameworks */,
+				BCC6095570A18FCB615EFA03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,11 +386,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DF02E91FBA869B00E09C82 /* FormTipsViewCell.xib in Resources */,
+				01DF02F81FBA9AA400E09C82 /* FormSearchViewCell.xib in Resources */,
 				01617ECD1FB53FAE0055A6B1 /* LaunchScreen.storyboard in Resources */,
 				01617ECA1FB53FAE0055A6B1 /* Assets.xcassets in Resources */,
 				01DF02D31FB96BF300E09C82 /* FormNoEditCell.xib in Resources */,
 				01DF02E31FB9874200E09C82 /* DatePicker.xib in Resources */,
 				01DF02DF1FB980B700E09C82 /* FormPopupSelectionCell.xib in Resources */,
+				01DF02F01FBA8C8C00E09C82 /* FormCheckBoxCell.xib in Resources */,
 				01617EC81FB53FAE0055A6B1 /* Main.storyboard in Resources */,
 				01DF02D71FB96FE500E09C82 /* FormTextFiledCell.xib in Resources */,
 				01DF02DB1FB9780100E09C82 /* FormTextViewCell.xib in Resources */,
@@ -326,18 +416,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35B83E55CA46A7DCE2CBEA9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BC625924E66C65EC6E88EFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormViewTests/Pods-FormViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D1458151F27E935C13934A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65E6A3B9B6FB120AE5BC741A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormViewUITests/Pods-FormViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0A1FE10F4E9D4EB5BF8819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF480B77FF1BD7AA2CF9988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormView/Pods-FormView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C20793B9079667A5A15B47B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormView/Pods-FormView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81C0D3D43B4374CC6E48572 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormViewTests/Pods-FormViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC6095570A18FCB615EFA03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormViewUITests/Pods-FormViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01617EBB1FB53FAE0055A6B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01DF02DE1FB980B700E09C82 /* FormPopupSelectionCell.swift in Sources */,
+				01DF02F41FBA917400E09C82 /* OnOffSwitch.swift in Sources */,
 				01617EF21FB545AB0055A6B1 /* Store.swift in Sources */,
+				01DF02E81FBA869B00E09C82 /* FormTipsViewCell.swift in Sources */,
 				01DF02DA1FB9780100E09C82 /* FormTextViewCell.swift in Sources */,
+				01DF02F21FBA90B500E09C82 /* CheckBoxButton.swift in Sources */,
+				01DF02FA1FBAB56D00E09C82 /* FormSearchViewDataSource.swift in Sources */,
+				01DF02EC1FBA884000E09C82 /* StringExtension.swift in Sources */,
 				01DF02E41FB9874200E09C82 /* SwiftDatePicker.swift in Sources */,
 				016184D41FB5904C0055A6B1 /* FormViewDataSource.swift in Sources */,
 				01617EC51FB53FAE0055A6B1 /* ViewController.swift in Sources */,
 				01DF02CF1FB94CB700E09C82 /* DemoViewController.swift in Sources */,
+				01DF02EF1FBA8C8C00E09C82 /* FormCheckBoxCell.swift in Sources */,
+				01DF02F71FBA9AA400E09C82 /* FormSearchViewCell.swift in Sources */,
 				01DF02D61FB96FE500E09C82 /* FormTextFiledCell.swift in Sources */,
 				016184D21FB58A570055A6B1 /* FormView.swift in Sources */,
 				01617EF41FB54E5D0055A6B1 /* FormViewController.swift in Sources */,
@@ -508,6 +743,7 @@
 		};
 		01617EE81FB53FAE0055A6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23FE193C59C7A8D14639FD2 /* Pods-FormView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +759,7 @@
 		};
 		01617EE91FB53FAE0055A6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A881D1740E516B5663DC02C4 /* Pods-FormView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +775,7 @@
 		};
 		01617EEB1FB53FAE0055A6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19443B6C5A8F5B003923CAF /* Pods-FormViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +793,7 @@
 		};
 		01617EEC1FB53FAE0055A6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FA7A0A0773BF1452ADF14F /* Pods-FormViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +811,7 @@
 		};
 		01617EEE1FB53FAE0055A6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346FE555BF59F8079CAFD208 /* Pods-FormViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +828,7 @@
 		};
 		01617EEF1FB53FAE0055A6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF1AE93ED3F87E2722180A8 /* Pods-FormViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
