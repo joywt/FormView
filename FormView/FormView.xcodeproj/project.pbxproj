@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014FE7B01FC7DAA800244196 /* FormLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014FE7AF1FC7DAA800244196 /* FormLabel.swift */; };
+		014FE7B21FC806D400244196 /* CRNetworkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014FE7B11FC806D400244196 /* CRNetworkButton.swift */; };
 		01617EC31FB53FAE0055A6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01617EC21FB53FAE0055A6B1 /* AppDelegate.swift */; };
 		01617EC51FB53FAE0055A6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01617EC41FB53FAE0055A6B1 /* ViewController.swift */; };
 		01617EC81FB53FAE0055A6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01617EC61FB53FAE0055A6B1 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 		016184D41FB5904C0055A6B1 /* FormViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016184D31FB5904C0055A6B1 /* FormViewDataSource.swift */; };
 		016184D61FB594500055A6B1 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016184D51FB594500055A6B1 /* FormModel.swift */; };
 		016184DD1FB5A2510055A6B1 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016184DB1FB5A2510055A6B1 /* FormCell.swift */; };
+		01BAB2581FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAB2561FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.swift */; };
+		01BAB2591FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BAB2571FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.xib */; };
 		01DF02CF1FB94CB700E09C82 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02CE1FB94CB700E09C82 /* DemoViewController.swift */; };
 		01DF02D21FB96BF300E09C82 /* FormNoEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02D01FB96BF300E09C82 /* FormNoEditCell.swift */; };
 		01DF02D31FB96BF300E09C82 /* FormNoEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DF02D11FB96BF300E09C82 /* FormNoEditCell.xib */; };
@@ -41,6 +45,11 @@
 		01DF02F71FBA9AA400E09C82 /* FormSearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02F51FBA9AA400E09C82 /* FormSearchViewCell.swift */; };
 		01DF02F81FBA9AA400E09C82 /* FormSearchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DF02F61FBA9AA400E09C82 /* FormSearchViewCell.xib */; };
 		01DF02FA1FBAB56D00E09C82 /* FormSearchViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DF02F91FBAB56D00E09C82 /* FormSearchViewDataSource.swift */; };
+		01F4388C1FBD82DF003EC489 /* FormUploadImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4388A1FBD82DF003EC489 /* FormUploadImageCell.swift */; };
+		01F4388D1FBD82DF003EC489 /* FormUploadImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F4388B1FBD82DF003EC489 /* FormUploadImageCell.xib */; };
+		01F438901FBD84F0003EC489 /* UploadImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4388E1FBD84F0003EC489 /* UploadImageCell.swift */; };
+		01F438911FBD84F0003EC489 /* UploadImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F4388F1FBD84F0003EC489 /* UploadImageCell.xib */; };
+		01F438951FBD88B7003EC489 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F438941FBD88B7003EC489 /* test.m */; };
 		5D3CEDD4B1D659B7B0DE4713 /* Pods_FormView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882AF94608A5AC9A66CFE8 /* Pods_FormView.framework */; };
 		816038B3ED6CDE9239B83202 /* Pods_FormViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A216997CB89C266E27AE93D /* Pods_FormViewUITests.framework */; };
 		CE49905B70A8812A43A73A59 /* Pods_FormViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B708D6FE5BEC0FCE541FF08E /* Pods_FormViewTests.framework */; };
@@ -64,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014FE7AF1FC7DAA800244196 /* FormLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormLabel.swift; sourceTree = "<group>"; };
+		014FE7B11FC806D400244196 /* CRNetworkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRNetworkButton.swift; sourceTree = "<group>"; };
 		01617EBF1FB53FAE0055A6B1 /* FormView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01617EC21FB53FAE0055A6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01617EC41FB53FAE0055A6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +94,8 @@
 		016184D31FB5904C0055A6B1 /* FormViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewDataSource.swift; sourceTree = "<group>"; };
 		016184D51FB594500055A6B1 /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
 		016184DB1FB5A2510055A6B1 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		01BAB2561FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextFiledCheckButtonCell.swift; sourceTree = "<group>"; };
+		01BAB2571FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormTextFiledCheckButtonCell.xib; sourceTree = "<group>"; };
 		01DF02CE1FB94CB700E09C82 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		01DF02D01FB96BF300E09C82 /* FormNoEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormNoEditCell.swift; sourceTree = "<group>"; };
 		01DF02D11FB96BF300E09C82 /* FormNoEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormNoEditCell.xib; sourceTree = "<group>"; };
@@ -104,6 +117,13 @@
 		01DF02F51FBA9AA400E09C82 /* FormSearchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSearchViewCell.swift; sourceTree = "<group>"; };
 		01DF02F61FBA9AA400E09C82 /* FormSearchViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormSearchViewCell.xib; sourceTree = "<group>"; };
 		01DF02F91FBAB56D00E09C82 /* FormSearchViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSearchViewDataSource.swift; sourceTree = "<group>"; };
+		01F4388A1FBD82DF003EC489 /* FormUploadImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUploadImageCell.swift; sourceTree = "<group>"; };
+		01F4388B1FBD82DF003EC489 /* FormUploadImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormUploadImageCell.xib; sourceTree = "<group>"; };
+		01F4388E1FBD84F0003EC489 /* UploadImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageCell.swift; sourceTree = "<group>"; };
+		01F4388F1FBD84F0003EC489 /* UploadImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadImageCell.xib; sourceTree = "<group>"; };
+		01F438921FBD88B7003EC489 /* FormView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FormView-Bridging-Header.h"; sourceTree = "<group>"; };
+		01F438931FBD88B7003EC489 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		01F438941FBD88B7003EC489 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		346FE555BF59F8079CAFD208 /* Pods-FormViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormViewUITests/Pods-FormViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FF1AE93ED3F87E2722180A8 /* Pods-FormViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormViewUITests/Pods-FormViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A216997CB89C266E27AE93D /* Pods_FormViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +197,9 @@
 				01617EC91FB53FAE0055A6B1 /* Assets.xcassets */,
 				01617ECB1FB53FAE0055A6B1 /* LaunchScreen.storyboard */,
 				01617ECE1FB53FAE0055A6B1 /* Info.plist */,
+				01F438931FBD88B7003EC489 /* test.h */,
+				01F438941FBD88B7003EC489 /* test.m */,
+				01F438921FBD88B7003EC489 /* FormView-Bridging-Header.h */,
 			);
 			path = FormView;
 			sourceTree = "<group>";
@@ -226,6 +249,14 @@
 				01DF02F51FBA9AA400E09C82 /* FormSearchViewCell.swift */,
 				01DF02F61FBA9AA400E09C82 /* FormSearchViewCell.xib */,
 				01DF02F91FBAB56D00E09C82 /* FormSearchViewDataSource.swift */,
+				01F4388A1FBD82DF003EC489 /* FormUploadImageCell.swift */,
+				01F4388B1FBD82DF003EC489 /* FormUploadImageCell.xib */,
+				01F4388E1FBD84F0003EC489 /* UploadImageCell.swift */,
+				01F4388F1FBD84F0003EC489 /* UploadImageCell.xib */,
+				01BAB2561FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.swift */,
+				01BAB2571FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.xib */,
+				014FE7B11FC806D400244196 /* CRNetworkButton.swift */,
+				014FE7AF1FC7DAA800244196 /* FormLabel.swift */,
 			);
 			path = platflom;
 			sourceTree = "<group>";
@@ -347,6 +378,7 @@
 				TargetAttributes = {
 					01617EBE1FB53FAE0055A6B1 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					01617ED21FB53FAE0055A6B1 = {
@@ -390,8 +422,11 @@
 				01DF02F81FBA9AA400E09C82 /* FormSearchViewCell.xib in Resources */,
 				01617ECD1FB53FAE0055A6B1 /* LaunchScreen.storyboard in Resources */,
 				01617ECA1FB53FAE0055A6B1 /* Assets.xcassets in Resources */,
+				01F4388D1FBD82DF003EC489 /* FormUploadImageCell.xib in Resources */,
 				01DF02D31FB96BF300E09C82 /* FormNoEditCell.xib in Resources */,
+				01F438911FBD84F0003EC489 /* UploadImageCell.xib in Resources */,
 				01DF02E31FB9874200E09C82 /* DatePicker.xib in Resources */,
+				01BAB2591FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.xib in Resources */,
 				01DF02DF1FB980B700E09C82 /* FormPopupSelectionCell.xib in Resources */,
 				01DF02F01FBA8C8C00E09C82 /* FormCheckBoxCell.xib in Resources */,
 				01617EC81FB53FAE0055A6B1 /* Main.storyboard in Resources */,
@@ -423,13 +458,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormView-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3BC625924E66C65EC6E88EFD /* [CP] Embed Pods Frameworks */ = {
@@ -453,13 +491,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormViewUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		65E6A3B9B6FB120AE5BC741A /* [CP] Embed Pods Frameworks */ = {
@@ -483,13 +524,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormViewTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8BF480B77FF1BD7AA2CF9988 /* [CP] Embed Pods Frameworks */ = {
@@ -498,9 +542,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FormView/Pods-FormView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLPhotoBrowser.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -565,15 +618,21 @@
 				01DF02E81FBA869B00E09C82 /* FormTipsViewCell.swift in Sources */,
 				01DF02DA1FB9780100E09C82 /* FormTextViewCell.swift in Sources */,
 				01DF02F21FBA90B500E09C82 /* CheckBoxButton.swift in Sources */,
+				01F4388C1FBD82DF003EC489 /* FormUploadImageCell.swift in Sources */,
 				01DF02FA1FBAB56D00E09C82 /* FormSearchViewDataSource.swift in Sources */,
 				01DF02EC1FBA884000E09C82 /* StringExtension.swift in Sources */,
 				01DF02E41FB9874200E09C82 /* SwiftDatePicker.swift in Sources */,
 				016184D41FB5904C0055A6B1 /* FormViewDataSource.swift in Sources */,
+				01F438901FBD84F0003EC489 /* UploadImageCell.swift in Sources */,
 				01617EC51FB53FAE0055A6B1 /* ViewController.swift in Sources */,
+				01BAB2581FC7BDCE000CB989 /* FormTextFiledCheckButtonCell.swift in Sources */,
 				01DF02CF1FB94CB700E09C82 /* DemoViewController.swift in Sources */,
+				014FE7B21FC806D400244196 /* CRNetworkButton.swift in Sources */,
 				01DF02EF1FBA8C8C00E09C82 /* FormCheckBoxCell.swift in Sources */,
 				01DF02F71FBA9AA400E09C82 /* FormSearchViewCell.swift in Sources */,
 				01DF02D61FB96FE500E09C82 /* FormTextFiledCell.swift in Sources */,
+				014FE7B01FC7DAA800244196 /* FormLabel.swift in Sources */,
+				01F438951FBD88B7003EC489 /* test.m in Sources */,
 				016184D21FB58A570055A6B1 /* FormView.swift in Sources */,
 				01617EF41FB54E5D0055A6B1 /* FormViewController.swift in Sources */,
 				01DF02D21FB96BF300E09C82 /* FormNoEditCell.swift in Sources */,
@@ -746,12 +805,16 @@
 			baseConfigurationReference = E23FE193C59C7A8D14639FD2 /* Pods-FormView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3CLDT84SQ;
 				INFOPLIST_FILE = FormView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joywt.FormView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FormView/FormView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -762,12 +825,15 @@
 			baseConfigurationReference = A881D1740E516B5663DC02C4 /* Pods-FormView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3CLDT84SQ;
 				INFOPLIST_FILE = FormView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joywt.FormView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FormView/FormView-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

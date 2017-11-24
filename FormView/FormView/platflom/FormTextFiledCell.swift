@@ -13,10 +13,10 @@ class FormTextFiledCell: FormCell,UITextFieldDelegate {
 
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var signView: UILabel!
-    @IBOutlet weak var titleView: UILabel!
+    @IBOutlet weak var titleView: FormLabel!
     @IBOutlet weak var valueView: UITextField!
     
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -28,11 +28,32 @@ class FormTextFiledCell: FormCell,UITextFieldDelegate {
     
     public override func reloadCell(_ model:FormModel,index:Int){
         super.reloadCell(model, index: index)
-        signView.text = model.required ? "＊" : ""
-        titleView.text = model.name
+        titleView.required = model.required
+        titleView.textWithEdit(editing: false, model.name)
         valueView.text = model.value
+        valueView.keyboardType = model.keyboardType ?? .default
+        model.value.isEmpty ? titleView.identityView() : titleView.transformView()
     }
     
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        guard let m = cellModel else { return false}
+        self.titleView.textWithEdit(editing: true, m.name)
+        guard textField.text!.isEmpty else {return true}
+        UIView.animate(withDuration: 0.2) {
+            self.titleView.transformView()
+        }
+        return true
+    }
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        guard let m = cellModel else { return false}
+        if textField.text!.isEmpty {
+            UIView.animate(withDuration: 0.2) {
+                self.titleView.identityView()
+            }
+        }
+        self.titleView.textWithEdit(editing: false, m.name)
+        return true
+    }
     func textFieldDidEndEditing(_ textField: UITextField) {
         assert(index >= 0, "Form cell index not >= 0")
         guard let text = textField.text else { return}
@@ -44,3 +65,4 @@ class FormTextFiledCell: FormCell,UITextFieldDelegate {
         return false
     }
 }
+

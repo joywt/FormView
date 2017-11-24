@@ -20,6 +20,7 @@ class FormModel {
     var value:String
     let required:Bool
     let cellType:FormCellType
+    var keyboardType:UIKeyboardType?
     init(_ theName:String,_ theValue:String?,isRequired:Bool,theCellType:FormCellType) {
         name = theName
         if let v = theValue { value = v } else { value = "" }
@@ -43,6 +44,8 @@ class FormPopupSelectedModel: FormModel {
 /// 上传图片 model
 class FormUploadImageModel: FormModel {
     var images:[String]?
+    var max = 10
+    var uploadMethodName:String?
 }
 
 
@@ -55,4 +58,5 @@ class FormCheckBoxModel: FormModel {
 class FormSearchTextModel: FormModel {
     var resultId:Int?
 }
+
 

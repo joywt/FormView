@@ -12,13 +12,10 @@ let kFormCheckBoxCellId = "kFormCheckBoxCellId"
 
 class FormCheckBoxCell: FormCell {
 
-    @IBOutlet weak var sign: UILabel!
-    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var title: FormLabel!
     @IBOutlet weak var valueView: UIStackView!
     @IBOutlet weak var backView: UIView!
-    
-    var cbModel: FormCheckBoxModel?
-    override func awakeFromNib() {
+        override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         defaultBackViewLayer(backView)
@@ -32,10 +29,9 @@ class FormCheckBoxCell: FormCell {
     
     override func reloadCell(_ model: FormModel, index: Int) {
         super.reloadCell(model, index: index)
-        sign.text = model.required ? "＊" : ""
-        title.text = model.name
+        title.required = model.required
+        title.textWithEdit(editing: false, model.name)
         if let model = model as? FormCheckBoxModel {
-            cbModel = model
             for view in valueView.arrangedSubviews{
                 valueView.removeArrangedSubview(view)
                 view.removeFromSuperview()
@@ -43,7 +39,7 @@ class FormCheckBoxCell: FormCell {
             guard let source = model.source  else { return}
             for item in source {
                 let btn = CheckBoxButton(frame: CGRect(x: 0, y: 0, width: 88, height: 32))
-                btn.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+                btn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
                 btn.setTitleColor(UIColor.black, for: .normal)
                 btn.setTitle(item.name, for: .normal)
                 btn.tag = index + 1
@@ -56,7 +52,7 @@ class FormCheckBoxCell: FormCell {
     
     @objc func btnSelected(_ sender:CheckBoxButton) {
         sender.isChecked.toggle()
-        if let model = cbModel {
+        if let model = cellModel {
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: kFormViewCheckBoxNotificationName), object: nil, userInfo: ["model":model,"index":index])
         }
     }

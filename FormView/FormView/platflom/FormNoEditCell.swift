@@ -28,8 +28,6 @@ class FormNoEditCell: FormCell {
     }
     
     override func reloadCell(_ model: FormModel, index: Int) {
-        super.reloadCell(model, index: index)
-        signView.text = model.required ? "＊" : ""
         titleView.text = model.name
         valueView.text = model.value
     }

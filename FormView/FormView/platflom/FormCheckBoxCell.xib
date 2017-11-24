@@ -20,51 +20,39 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cX6-Ua-kpo">
-                        <rect key="frame" x="10" y="15" width="300" height="78.5"/>
+                        <rect key="frame" x="20" y="15" width="280" height="78.5"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbJ-Jx-mHA">
-                                <rect key="frame" x="8" y="28.5" width="14.5" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="vWs-8D-ygd"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hqz-zk-fDx">
-                                <rect key="frame" x="96" y="0.0" width="204" height="78.5"/>
+                                <rect key="frame" x="83.5" y="0.0" width="196.5" height="78.5"/>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通知类型" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRR-cl-dAm">
-                                <rect key="frame" x="30.5" y="31" width="57.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通知类型" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRR-cl-dAm" customClass="FormLabel" customModule="FormView" customModuleProvider="target">
+                                <rect key="frame" x="10" y="30" width="65.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kbJ-Jx-mHA" firstAttribute="leading" secondItem="cX6-Ua-kpo" secondAttribute="leading" constant="8" id="47r-ZR-jjF"/>
+                            <constraint firstItem="sRR-cl-dAm" firstAttribute="leading" secondItem="cX6-Ua-kpo" secondAttribute="leading" constant="10" id="I4V-nK-Z2a"/>
                             <constraint firstAttribute="trailing" secondItem="hqz-zk-fDx" secondAttribute="trailing" id="JDd-8b-hky"/>
-                            <constraint firstItem="sRR-cl-dAm" firstAttribute="leading" secondItem="kbJ-Jx-mHA" secondAttribute="trailing" constant="8" id="VRe-K0-VjI"/>
                             <constraint firstItem="hqz-zk-fDx" firstAttribute="leading" secondItem="sRR-cl-dAm" secondAttribute="trailing" constant="8" id="gAV-Da-bkO"/>
                             <constraint firstItem="hqz-zk-fDx" firstAttribute="top" secondItem="cX6-Ua-kpo" secondAttribute="top" id="jpN-gL-RSz"/>
                             <constraint firstItem="sRR-cl-dAm" firstAttribute="centerY" secondItem="cX6-Ua-kpo" secondAttribute="centerY" id="pQP-Gi-ecT"/>
                             <constraint firstAttribute="bottom" secondItem="hqz-zk-fDx" secondAttribute="bottom" id="pkT-xQ-hyF"/>
-                            <constraint firstItem="kbJ-Jx-mHA" firstAttribute="centerY" secondItem="cX6-Ua-kpo" secondAttribute="centerY" id="tPO-6J-wTM"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="cX6-Ua-kpo" secondAttribute="trailing" constant="10" id="BEb-mE-mqs"/>
+                    <constraint firstAttribute="trailing" secondItem="cX6-Ua-kpo" secondAttribute="trailing" constant="20" id="BEb-mE-mqs"/>
                     <constraint firstAttribute="bottom" secondItem="cX6-Ua-kpo" secondAttribute="bottom" id="YYH-sY-0bI"/>
-                    <constraint firstItem="cX6-Ua-kpo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="bU3-gd-LnN"/>
+                    <constraint firstItem="cX6-Ua-kpo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="bU3-gd-LnN"/>
                     <constraint firstItem="cX6-Ua-kpo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="uKB-Bf-3n0"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="backView" destination="cX6-Ua-kpo" id="8kR-IC-lqA"/>
-                <outlet property="sign" destination="kbJ-Jx-mHA" id="XMA-WO-3H1"/>
                 <outlet property="title" destination="sRR-cl-dAm" id="7IT-NY-FMw"/>
                 <outlet property="valueView" destination="hqz-zk-fDx" id="hqX-Bc-Mzb"/>
             </connections>

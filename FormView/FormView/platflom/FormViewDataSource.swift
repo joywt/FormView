@@ -38,8 +38,10 @@ class FormViewDataSource: NSObject,UITableViewDataSource{
             identifier = kFormCheckBoxCellId
         case .searchViewType:
             identifier = kFormSearchResultViewCellId
-        default:
-            fatalError("类型未定义")
+        case .uploadImageType:
+            identifier = kFormUploadImageCellId
+        case .textFiledCheckButtonType:
+            identifier = kFormTextFiledCheckButtonCellId
         }
         let cell = tableView.dequeueReusableCell(withIdentifier:identifier , for: indexPath) as! FormCell
         cell.reloadCell(dataSource[indexPath.row],index: indexPath.row)

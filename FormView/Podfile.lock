@@ -1,12 +1,24 @@
 PODS:
-  - SwiftDate (4.4.1)
+  - IQKeyboardManagerSwift (5.0.6)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SwiftDate (4.4.2)
+  - ZLPhotoBrowser (2.5.1.1):
+    - SDWebImage
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SDWebImage
   - SwiftDate
+  - ZLPhotoBrowser
 
 SPEC CHECKSUMS:
-  SwiftDate: a70a534d4feed03b2a2b575e36bef82dc2286a8d
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SwiftDate: 131cf2f09b390f0a07f0099e36005ffe2fbf4c7e
+  ZLPhotoBrowser: 157c3c9f7ca6f32877ee669510504cf8aa369a95
 
-PODFILE CHECKSUM: 67f8212b4a073a192ef6d5c1772bfe2633412dce
+PODFILE CHECKSUM: 6342c30df199989dcd8bd9cd3c8d3feb05b12ba3
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.3.1

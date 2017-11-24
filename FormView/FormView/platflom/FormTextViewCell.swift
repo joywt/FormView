@@ -12,8 +12,7 @@ let kFormTextViewCellId = "kFormTextViewCellId"
 class FormTextViewCell: FormCell,UITextViewDelegate {
 
     @IBOutlet weak var backView: UIView!
-    @IBOutlet weak var signView: UILabel!
-    @IBOutlet weak var titleView: UILabel!
+    @IBOutlet weak var titleView: FormLabel!
     @IBOutlet weak var remarkView: UITextView!
     
     override func awakeFromNib() {
@@ -31,8 +30,31 @@ class FormTextViewCell: FormCell,UITextViewDelegate {
     
     override func reloadCell(_ model: FormModel, index: Int) {
         super.reloadCell(model, index: index)
-        signView.text = model.required ? "＊" : ""
-        titleView.text = model.name
+        titleView.required = model.required
+        titleView.textWithEdit(editing: false, model.name)
+        remarkView.text = model.value
+        remarkView.keyboardType = model.keyboardType ?? .default
+        model.value.isEmpty ? titleView.identityView() : titleView.transformView()
+    }
+    
+    func textViewShouldBeginEditing(_ textView: UITextView) -> Bool {
+        guard let m = cellModel else { return false}
+        self.titleView.textWithEdit(editing: true, m.name)
+        guard textView.text!.isEmpty else {return true}
+        UIView.animate(withDuration: 0.2) {
+            self.titleView.transformView()
+        }
+        return true
+    }
+    func textViewShouldEndEditing(_ textView: UITextView) -> Bool {
+        guard let m = cellModel else { return false}
+        if textView.text!.isEmpty {
+            UIView.animate(withDuration: 0.2) {
+                self.titleView.identityView()
+            }
+        }
+        self.titleView.textWithEdit(editing: false, m.name)
+        return true
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
@@ -41,3 +63,5 @@ class FormTextViewCell: FormCell,UITextViewDelegate {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: kFormViewDidEndEditingNotificationName), object: nil, userInfo: ["text":text,"index":index])
     }
 }
+
+

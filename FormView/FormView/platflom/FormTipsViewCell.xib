@@ -20,10 +20,10 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLg-EE-mn9">
-                        <rect key="frame" x="10" y="0.0" width="300" height="49.5"/>
+                        <rect key="frame" x="20" y="15" width="280" height="34.5"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Cj-fU-G85">
-                                <rect key="frame" x="0.0" y="0.0" width="300" height="49.5"/>
+                                <rect key="frame" x="10" y="0.0" width="260" height="34.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="1" green="0.58823529409999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -32,16 +32,16 @@
                         <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Cj-fU-G85" firstAttribute="top" secondItem="eLg-EE-mn9" secondAttribute="top" id="076-Wt-RBv"/>
-                            <constraint firstAttribute="trailing" secondItem="6Cj-fU-G85" secondAttribute="trailing" id="7hg-Em-pCB"/>
-                            <constraint firstItem="6Cj-fU-G85" firstAttribute="leading" secondItem="eLg-EE-mn9" secondAttribute="leading" id="Pj6-9V-mmA"/>
+                            <constraint firstAttribute="trailing" secondItem="6Cj-fU-G85" secondAttribute="trailing" constant="10" id="7hg-Em-pCB"/>
+                            <constraint firstItem="6Cj-fU-G85" firstAttribute="leading" secondItem="eLg-EE-mn9" secondAttribute="leading" constant="10" id="Pj6-9V-mmA"/>
                             <constraint firstAttribute="bottom" secondItem="6Cj-fU-G85" secondAttribute="bottom" id="qG5-K2-WGG"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="eLg-EE-mn9" secondAttribute="trailing" constant="10" id="CGH-mJ-dwL"/>
-                    <constraint firstItem="eLg-EE-mn9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Pvb-cB-rWW"/>
-                    <constraint firstItem="eLg-EE-mn9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="baE-PF-ILH"/>
+                    <constraint firstAttribute="trailing" secondItem="eLg-EE-mn9" secondAttribute="trailing" constant="20" id="CGH-mJ-dwL"/>
+                    <constraint firstItem="eLg-EE-mn9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Pvb-cB-rWW"/>
+                    <constraint firstItem="eLg-EE-mn9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="baE-PF-ILH"/>
                     <constraint firstAttribute="bottom" secondItem="eLg-EE-mn9" secondAttribute="bottom" id="hql-vy-zXq"/>
                 </constraints>
             </tableViewCellContentView>

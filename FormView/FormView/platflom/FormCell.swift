@@ -31,20 +31,28 @@ enum FormCellType {
     case uploadImageType
     /// 搜索填充类型
     case searchViewType
+    /// 输入框 + 检索按钮
+    case textFiledCheckButtonType
     
 }
+
+
+
 class FormCell: UITableViewCell,FormCellReload {
     var index = -1
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//    }
+    var cellModel:FormModel?
     
+    /// 设置编辑框的圆角和 border 的样式
     public func defaultBackViewLayer(_ backView:UIView){
         backView.layer.cornerRadius = 2.0
         backView.layer.borderWidth = 1.0
         backView.layer.borderColor = UIColor(red: 239/255.0, green: 239/255.0, blue: 239/255.0, alpha: 1.0).cgColor
     }
+    
+    /// 记录当前 cell 的index
+    /// 用于更新 cell 的值
     public func reloadCell(_ model:FormModel,index:Int){
+        cellModel = model
         self.index = index
     }
 }
